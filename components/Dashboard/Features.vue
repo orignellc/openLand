@@ -1,5 +1,5 @@
 <template>
-<div class="bg-green-25 bg-opacity-40">
+<div class="bg-green-25 bg-opacity-40" id="features">
   <div
     class="
         max-w-6xl
@@ -16,7 +16,8 @@
     <div class="mb-10 md:mb-16 text-center">
       <h3 class="font-semibold text-3xl leading-4 text-center mb-4">Features</h3>
       <p class="w-4/5 mx-auto text-sm md:text-base">
-        OpenLand is the most open platform for buying, selling and earning returns on land assets on the blockchain.
+        We give investors tools to help them purchase affordable properties, optimize sale decisions, identify yield
+        and profit opportunities, and set their prize amongst other services.
       </p>
     </div>
 
@@ -39,8 +40,8 @@ export default {
       features: [
         {img: '/img/affordable.png', title: 'Affordable', body: 'Buy any amount of land you can afford in fractions.'},
         {img: '/img/trustless.png', title: 'Trustless', body: 'Ownership and transfer is permanently recorded on the blockchain'},
-        {img: '/img/dao.png', title: 'DAO-based', body: ''},
-        {img: '/img/commodity.png', title: 'Commodity', body: 'commodity'},
+        {img: '/img/dao.png', title: 'DAO-based', body: 'Tokenized ownership and voting rights on properties'},
+        {img: '/img/commodity.png', title: 'Commodity', body: 'As a commodity, Earn passive returns on your land when traded as a commodity.'},
       ]
     }
   }

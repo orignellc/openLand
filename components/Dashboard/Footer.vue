@@ -19,7 +19,10 @@
           <logo class="h-8 mb-5" color="#fff"/>
           <p class="text-white text-base">We enhance value of bare lands in the <br>Real Estate Industry</p>
         </div>
-        <div class="">
+        <div class="flex justify-end opacity-60">
+          <a v-for="social in socials">
+            <img :src="social.icon" alt="twitter" class="h-10 ml-4">
+          </a>
         </div>
         <div class="col-span-2 border-t border-opacity-40 border-white pt-5">
           <p class="text-sm text-white">
@@ -34,6 +37,28 @@
 <script>
 export default {
   name: "DashboardFooter",
+  data() {
+    return {
+      socials: [
+        {
+          icon: "/img/twitter.png",
+          link: "",
+        },
+        {
+          icon: "/img/instagram.png",
+          link: "",
+        },
+        {
+          icon: "/img/telegram.png",
+          link: "",
+        },
+        {
+          icon: "/img/youtube.png",
+          link: "",
+        },
+      ]
+    }
+  }
 }
 </script>
 

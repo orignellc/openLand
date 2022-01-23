@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="" id="how-it-works">
     <div
       class="
         max-w-6xl
@@ -26,9 +26,10 @@
 
         <div class="grid md:grid-cols-3 gap-6">
           <div class="flex items-center" v-for="(step, key) in stepsForRealtors">
-            <div class="bg-green-25 text-4xl h-20 w-20 rounded-full inline-flex items-center justify-center">{{
+            <div class=""><div class="bg-green-25 text-4xl h-20 w-20 rounded-full inline-flex items-center justify-center">{{
                 key + 1
               }}
+            </div>
             </div>
             <div class="w-4/5 mx-auto text-sm ml-6">{{ step }}</div>
           </div>
@@ -47,13 +48,37 @@
         mx-auto
       "
       >
-        <h3 class="font-semibold text-2xl leading-4 mb-6">For Buyers</h3>
+        <h3 class="font-semibold text-2xl leading-4 mb-6">For Buyers (Fractional Purchase)</h3>
 
         <div class="grid md:grid-cols-3 gap-6">
           <div class="flex items-center" v-for="(step, key) in stepsForBuyers">
-            <div class="bg-green-25 text-4xl h-20 w-20 rounded-full inline-flex items-center justify-center">{{
+            <div class=""><div class="bg-green-25 text-4xl h-20 w-20 rounded-full inline-flex items-center justify-center">{{
                 key + 1
               }}
+            </div>
+            </div>
+            <div class="w-4/5 mx-auto text-sm ml-6">{{ step }}</div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="
+        max-w-6xl
+        px-4
+        py-12
+        w-full
+        mx-auto
+      "
+      >
+        <h3 class="font-semibold text-2xl leading-4 mb-6">For Buyers (Bulk Purchase)</h3>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="flex items-center" v-for="(step, key) in stepsForBuyersBulkPurchase">
+            <div class=""><div class="bg-green-25 text-4xl h-20 w-20 rounded-full inline-flex items-center justify-center">{{
+                key + 1
+              }}
+            </div>
             </div>
             <div class="w-4/5 mx-auto text-sm ml-6">{{ step }}</div>
           </div>
@@ -79,6 +104,11 @@ export default {
         "Make payment using our open peer-to-peer payment system",
         "After payment, a new price is manually set by you before the end of the ‘cool down period’ and pay a percentage of your sale price as commission to property owner"
       ],
+      stepsForBuyersBulkPurchase: [
+        "Submit a proposal with desired amount of sqm and bid amount which is locked im escrow by OpenLand protocol",
+        "Your proposal is submitted to the DAO of current property owners. Any willing to sell adds fractions to the pool until desired amount of sqm is reached",
+       "The property ownership rights are transferred to the new owner and property taken off open sale on the platform",
+      ]
     }
   }
 }

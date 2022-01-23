@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="properties">
   <div
     class="
         max-w-6xl

@@ -20,14 +20,18 @@
 <!--        </p>-->
       </div>
 
-      <div class="grid md:grid-cols-3 w-5/6 gap-10 text-center">
+      <div class="grid md:grid-cols-4 w-5/6 gap-10 text-center">
         <div class="">
-          <img src="/img/polygon-logo.png" alt="Polygon" class="h-20 mx-auto mb-3">
-          <p class="text-base text-gray-700">Polygon</p>
+          <img src="/img/solana-logo.png" alt="Solana" class="h-20 mx-auto mb-3">
+          <p class="text-base text-gray-700">Solana</p>
         </div>
         <div class="">
           <img src="/img/moralis-logo.png" alt="Moralis" class="h-20 mx-auto mb-3">
           <p class="text-base text-gray-700">Moralis</p>
+        </div>
+        <div class="">
+          <img src="/img/wormhole-network-logo.svg" alt="Wormhole" class="h-20 mx-auto mb-3">
+          <p class="text-base text-gray-700">Wormhole</p>
         </div>
         <div class="">
           <img src="/img/ipfs-logo.png" alt="IPFS" class="h-20 mx-auto mb-3">

@@ -19,7 +19,6 @@
       <div class="flex ml-auto md:ml-6 md:order-3">
         <a
           target="_blank"
-          href="https://t.me/qlipit_io"
           class="
             bg-green-650 hover:bg-green-600
             text-white
@@ -72,15 +71,15 @@
         "
         :class="{ hidden: showMobileNav }"
       >
-        <nuxt-link to="/#marketplace" class="mr-3 lg:mx-3 lg:mx-6 my-3 hover:text-green-600">
+        <nuxt-link to="/#features" class="mr-3 lg:mx-3 lg:mx-6 my-3 hover:text-green-600">
           <span>Features</span>
         </nuxt-link>
 
-        <nuxt-link to="/#marketplace" class="mr-3 lg:mx-3 lg:mx-6 my-3 hover:text-green-600">
+        <nuxt-link to="/#how-it-works" class="mr-3 lg:mx-3 lg:mx-6 my-3 hover:text-green-600">
           <span>How It works</span>
         </nuxt-link>
 
-        <nuxt-link to="/#marketplace" class="mr-3 lg:mx-3 lg:mx-6 my-3 hover:text-green-600">
+        <nuxt-link to="/#properties" class="mr-3 lg:mx-3 lg:mx-6 my-3 hover:text-green-600">
           <span>Properties</span>
         </nuxt-link>
       </div>
