@@ -14,14 +14,14 @@
       "
     >
 
-      <div class="grid md:grid-cols-2 w-5/6 gap-10">
-        <div class="">
+      <div class="md:grid md:grid-cols-2 w-5/6 gap-10">
+        <div class="mb-5">
           <logo class="h-8 mb-5" color="#fff"/>
           <p class="text-white text-base">We enhance value of bare lands in the <br>Real Estate Industry</p>
         </div>
-        <div class="flex justify-end opacity-60">
+        <div class="flex md:justify-end opacity-60 mb-5">
           <a v-for="social in socials">
-            <img :src="social.icon" alt="twitter" class="h-10 ml-4">
+            <img :src="social.icon" alt="twitter" class="h-10 ml-0 mr-4 md:ml-4 md:mr-0">
           </a>
         </div>
         <div class="col-span-2 border-t border-opacity-40 border-white pt-5">
